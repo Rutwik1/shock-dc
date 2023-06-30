@@ -1,0 +1,262 @@
+.main_container {
+  padding-left: 2rem;
+  padding-top: 4.5rem;
+  display: flex;
+}
+
+.section-1 {
+  padding-bottom: 1rem;
+  margin-top: 0.32rem;
+}
+
+.block-1 {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-color: #f0f0f0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -4rem;
+}
+
+.img-container {
+  padding-bottom: 0.2rem;
+  position: relative;
+  z-index: 1;
+  border-top-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  box-shadow: 0.13rem 0 0 0 #eceeee;
+}
+
+.image1 {
+  max-width: 100%;
+  max-height: 100%;
+  border-top-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  background-color: #79858e;
+}
+
+.plus-icon {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+.plus-icon svg {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding: 9px;
+}
+
+.block-2 {
+  padding-bottom: 0.5rem;
+  margin: 0;
+}
+
+.img-container-2 {
+  width: 198px;
+  height: 160px;
+  background-color: #0e1219;
+  border-bottom-right-radius: 50px;
+  position: relative;
+}
+
+.dot-icon {
+  position: absolute;
+  left: 15px;
+  top: 82px;
+  z-index: 1;
+  background: none;
+  font-size: large;
+}
+
+.dot-icon-1 {
+  background: none;
+}
+
+.text-b2 {
+  position: absolute;
+  z-index: 1;
+  left: 85px;
+  bottom: 65px;
+  background: transparent;
+}
+
+.text-b2 p {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 10px;
+  background: none;
+}
+
+.block-3 {
+  padding-bottom: 0.5rem;
+  margin: 0;
+}
+
+.img-container-3 {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image3 {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.section-2 {
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.block-4 {
+  position: relative;
+  margin-bottom: -19.1rem;
+}
+
+.img-container-4 {
+  width: 200px;
+  height: 300px;
+  border-top-right-radius: 50px;
+  background-color: #91d9c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+
+.img-container-4 .image4 {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+
+.img-container-4 p {
+  text-align: center;
+  background: none;
+  color: black;
+  font-weight: 600;
+  font-size: small;
+}
+
+.block-5 {
+  padding-top: 12rem;
+}
+
+.circle-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0 0 0 0.5rem #eceeee;
+  position: absolute;
+}
+
+.circle-container .circle {
+  background: none;
+}
+
+.image5 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.circle img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  background: none;
+}
+
+.vertical-line-container {
+  position: absolute;
+  z-index: 3;
+  margin-top: 12.5rem;
+  margin-left: 6.3rem;
+}
+
+.vertical-line {
+  color: #000000;
+  width: 1.5px;
+  height: 130px;
+  background-color: #000000;
+}
+
+.dot {
+  width: 6.5px;
+  height: 6.5px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #000000;
+  margin-top: -0.3rem;
+  margin-left: -0.15rem;
+}
+
+.text-container {
+  margin-left: -5rem;
+}
+
+.line-text {
+  color: #000000;
+  padding-left: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  font-size: 13px;
+}
+
+.line-text u {
+  color: #000000;
+  font-weight: 500;
+}
+
+.section-x {
+  padding-left: 13rem;
+  position: absolute;
+}
+
+.section-x {
+  padding-left: 13rem;
+  position: absolute;
+}
+
+.img-container-x {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  z-index: 5;
+  top: -19.25rem;
+}

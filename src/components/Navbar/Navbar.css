@@ -1,0 +1,68 @@
+.navbar {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+  text-decoration: none;
+  padding-right: 0%;
+}
+
+.logo h1 {
+  color: rgb(0, 0, 0);
+  font-style: bold;
+  font-weight: 900;
+  font-size: xx-large;
+  text-decoration-line: line-through;
+  text-decoration-color: #eceeee;
+}
+
+.logo strong {
+  color: rgb(0, 0, 0);
+  padding-left: 0.5rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 3rem;
+  padding-left: 25rem;
+}
+
+.menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  font-weight: 500;
+}
+
+a.active {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.cart span {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  display: flex;
+  padding-right: 0;
+  padding-left: 13rem;
+}
+
+#theme-toggle-container {
+  display: flex;
+}
